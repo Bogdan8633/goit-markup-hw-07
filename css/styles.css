@@ -320,12 +320,12 @@ p {
 
 
 
-/* =====================products=======================*/
+/* =====================services=======================*/
 .section.services {
     padding-top: 0;
 }
 
-.head-title {
+.services__head-title {
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -336,24 +336,20 @@ p {
     letter-spacing: 0.03em;
 }
 
-.services-content {
+.services__list {
     display: flex;
 }
 
-.services-content .services-image:not(:last-child) {
+.services__list .services__item:not(:last-child) {
     margin-right: 30px;
 }
 
-
-
-
-
-.services-thumb {
+.services__thumb {
     position: relative;
 }
 
 
-.services-overlay {
+.services__overlay {
     position: absolute;
     transform-origin: bottom center;
     bottom: 0;
@@ -364,12 +360,10 @@ p {
 
 }
 
-.services-name {
+.services__name {
     margin-top: 27px;
     margin-bottom: 27px;
     
-
-
     font-weight: var(--bolt-font);
     font-size: var(--primary-font-size);
     line-height: 1.14;
@@ -381,7 +375,7 @@ p {
 }
 
 
-/* =====================/products=======================*/
+/* =====================/services=======================*/
 
 
 
