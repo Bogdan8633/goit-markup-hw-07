@@ -403,55 +403,55 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close" type="button" data-modal-close>
-                <svg class="close-cross-icon" width="18px" height="18px">
+                <svg class="close__cross-icon" width="18px" height="18px">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
-            <form autocomplete="off">
-                <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="form" autocomplete="off">
+                <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
                 <ul>
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="name">Имя</label>
-                        <div class="input-container">
-                            <input class="input-text" type="text" name="name" id="name" required minlength="2" />
-                            <span class="input-icon">
-                                <svg class="form-input-icon" width="18px" height="18px">
+                    <li class="form__item">
+                        <label class="form__label" for="name">Имя</label>
+                        <div class="form__input-container">
+                            <input class="form__input-text" type="text" name="name" id="name" required minlength="2" />
+                            <span class="form__input-span">
+                                <svg class="form__input-icon" width="18px" height="18px">
                                     <use href="./images/sprite.svg#icon-person-input"></use>
                                 </svg>
                             </span>
                         </div>
                     </li>
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="tel">Телефон</label>
-                        <div class="input-container">
-                            <input class="input-text" type="tel" name="tel" id="tel" required>
-                            <span class="input-icon">
-                                <svg class="form-input-icon" width="18px" height="18px">
+                    <li class="form__item">
+                        <label class="form__label" for="tel">Телефон</label>
+                        <div class="form__input-container">
+                            <input class="form__input-text" type="tel" name="tel" id="tel" required>
+                            <span class="form__input-span">
+                                <svg class="form__input-icon" width="18px" height="18px">
                                     <use href="./images/sprite.svg#icon-phone-input"></use>
                                 </svg>
                             </span>
                         </div>
                     </li>
-                    <li class="modal-form-item">
-                        <label class="modal-form-label" for="mail">Почта</label>
-                        <div class="input-container">
-                            <input class="input-text" type="email" name="mail" id="mail">
-                            <span class="input-icon">
-                                <svg class="form-input-icon" width="18px" height="18px">
+                    <li class="form__item">
+                        <label class="form__label" for="mail">Почта</label>
+                        <div class="form__input-container">
+                            <input class="form__input-text" type="email" name="mail" id="mail">
+                            <span class="form__input-span">
+                                <svg class="form__input-icon" width="18px" height="18px">
                                     <use href="./images/sprite.svg#icon-email-input"></use>
                                 </svg>
                             </span>
                         </div>
                     </li>
                 </ul>
-                <label class="modal-form-label" for="comment">Комментарий</label>
-                <textarea class="comment-place" name="comment" id="comment" placeholder="Введите текст" rows="10"></textarea>
-                <label class="agree-text">
-                    <input class="agree-checkbox" type="checkbox" name="agree" value="agree" />
-                    <span class="checkbox-icon"></span>
+                <label class="form__label" for="comment">Комментарий</label>
+                <textarea class="form__comment-place" name="comment" id="comment" placeholder="Введите текст" rows="10"></textarea>
+                <label class="form__agree-text">
+                    <input class="form__agree-checkbox" type="checkbox" name="agree" value="agree" />
+                    <span class="form__checkbox-icon"></span>
                     Соглашаюсь с рассылкой и принимаю&nbsp;<a class="policy" href="#">Условия договора</a>
                 </label>
-                <button class="button button--contained" type="submit">Отправить</button>
+                <button class="button button--contained form__button" type="submit">Отправить</button>
             </form>
         </div>
     </div>
